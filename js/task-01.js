@@ -1,7 +1,6 @@
-const numberOfCategoriesEl = document.querySelectorAll('.item').length;
-console.log(`Number of categories: ${numberOfCategoriesEl}`);
 
 const liEl = document.querySelectorAll('.item');
+console.log(`Number of categories: ${liEl.length}`);
 
 liEl.forEach(function (element) {
   const categoriesTitle = element.children[0].textContent;
